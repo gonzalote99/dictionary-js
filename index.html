@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>fast search</title>
+</head>
+<body>
+  <input id="searchForm" type="text" placeholder="word" oninput="loadSearch(search='search')" onkeyup="clearSearch()" maxlength="28" required value=""></input>
+  <div class="def-rectangle">
+  <b>
+  <div id="name">color</div>
+  </b>
+  <div id="definition">
+   <div id="definitions" class="definition0">
+    change color
+   </div>
+   <div id="definitions" class="definition1">
+    another definition
+   </div>
+   <div id="definitions" class="definition2">
+    definition 3
+   </div>
+
+  </div>
+  <div id="searchImage">
+   <img src="https://source.unsplash.com/featured?chien"></img>
+  </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
